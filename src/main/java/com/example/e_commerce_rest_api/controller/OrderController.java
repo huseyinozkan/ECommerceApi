@@ -55,7 +55,7 @@ public class OrderController extends BaseController {
         return ok(orderService.save(request));
     }
 
-    @PreAuthorize(Authorize.ADMIN)
+    @PreAuthorize(Authorize.USER_ADMIN)
     @PutMapping(path = "/update-order-status")
     public ResponseEntity<BaseResponse<OrderDto>> updateOrderStatus(@Valid @RequestBody UpdateOrderStatusRequest request) {
         return ok(orderService.updateOrderStatus(request));
