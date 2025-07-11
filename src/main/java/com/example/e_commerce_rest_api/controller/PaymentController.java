@@ -1,10 +1,11 @@
 package com.example.e_commerce_rest_api.controller;
 
 import com.example.e_commerce_rest_api.controller.base.BaseController;
-import com.example.e_commerce_rest_api.model.request.UpdatePaymentStatusRequest;
-import com.example.e_commerce_rest_api.model.response.PaymentDto;
-import com.example.e_commerce_rest_api.model.response.base.BaseResponse;
-import com.example.e_commerce_rest_api.service.impl.PaymentService;
+import com.example.e_commerce_rest_api.dto.request.UpdatePaymentStatusRequest;
+import com.example.e_commerce_rest_api.dto.response.PaymentDto;
+import com.example.e_commerce_rest_api.dto.response.base.BaseResponse;
+import com.example.e_commerce_rest_api.service.PaymentService;
+import com.example.e_commerce_rest_api.service.impl.PaymentServiceImpl;
 import com.example.e_commerce_rest_api.utils.constants.Authorize;
 import com.example.e_commerce_rest_api.utils.helper.MessageSourceHelper;
 import jakarta.validation.Valid;

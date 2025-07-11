@@ -2,11 +2,11 @@ package com.example.e_commerce_rest_api.controller;
 
 import com.example.e_commerce_rest_api.controller.base.BaseController;
 import com.example.e_commerce_rest_api.enums.OrderStatus;
-import com.example.e_commerce_rest_api.model.request.*;
-import com.example.e_commerce_rest_api.model.response.AddressDto;
-import com.example.e_commerce_rest_api.model.response.OrderDto;
-import com.example.e_commerce_rest_api.model.response.base.BaseResponse;
-import com.example.e_commerce_rest_api.service.impl.OrderService;
+import com.example.e_commerce_rest_api.dto.request.*;
+import com.example.e_commerce_rest_api.dto.response.OrderDto;
+import com.example.e_commerce_rest_api.dto.response.base.BaseResponse;
+import com.example.e_commerce_rest_api.service.OrderService;
+import com.example.e_commerce_rest_api.service.impl.OrderServiceImpl;
 import com.example.e_commerce_rest_api.utils.constants.Authorize;
 import com.example.e_commerce_rest_api.utils.helper.MessageSourceHelper;
 import jakarta.validation.Valid;

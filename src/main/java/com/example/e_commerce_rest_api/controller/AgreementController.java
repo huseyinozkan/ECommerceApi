@@ -1,11 +1,12 @@
 package com.example.e_commerce_rest_api.controller;
 
 import com.example.e_commerce_rest_api.controller.base.BaseController;
-import com.example.e_commerce_rest_api.model.request.InsertAgreementRequest;
-import com.example.e_commerce_rest_api.model.request.UpdateAgreementRequest;
-import com.example.e_commerce_rest_api.model.response.AgreementDto;
-import com.example.e_commerce_rest_api.model.response.base.BaseResponse;
-import com.example.e_commerce_rest_api.service.impl.AgreementService;
+import com.example.e_commerce_rest_api.dto.request.InsertAgreementRequest;
+import com.example.e_commerce_rest_api.dto.request.UpdateAgreementRequest;
+import com.example.e_commerce_rest_api.dto.response.AgreementDto;
+import com.example.e_commerce_rest_api.dto.response.base.BaseResponse;
+import com.example.e_commerce_rest_api.service.AgreementService;
+import com.example.e_commerce_rest_api.service.impl.AgreementServiceImpl;
 import com.example.e_commerce_rest_api.utils.constants.Authorize;
 import com.example.e_commerce_rest_api.utils.helper.MessageSourceHelper;
 import jakarta.validation.Valid;

@@ -1,7 +1,7 @@
 package com.example.e_commerce_rest_api.utils.config;
 
 import com.example.e_commerce_rest_api.entity.User;
-import com.example.e_commerce_rest_api.service.impl.UserService;
+import com.example.e_commerce_rest_api.service.impl.UserServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,7 +14,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @Configuration
 @RequiredArgsConstructor
 public class AppConfig {
-    private final UserService userService;
+    private final UserServiceImpl userService;
 
     @Bean
     public UserDetailsService userDetailsService() {

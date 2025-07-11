@@ -1,7 +1,7 @@
 package com.example.e_commerce_rest_api.utils.jwt;
 
 import com.example.e_commerce_rest_api.enums.MessageKey;
-import com.example.e_commerce_rest_api.model.response.base.BaseResponse;
+import com.example.e_commerce_rest_api.dto.response.base.BaseResponse;
 import com.example.e_commerce_rest_api.utils.helper.MessageSourceHelper;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.ServletException;

@@ -1,7 +1,7 @@
 package com.example.e_commerce_rest_api.controller.base;
 
 import com.example.e_commerce_rest_api.enums.MessageKey;
-import com.example.e_commerce_rest_api.model.response.base.BaseResponse;
+import com.example.e_commerce_rest_api.dto.response.base.BaseResponse;
 import com.example.e_commerce_rest_api.utils.helper.MessageSourceHelper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

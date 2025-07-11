@@ -1,11 +1,12 @@
 package com.example.e_commerce_rest_api.controller;
 
 import com.example.e_commerce_rest_api.controller.base.BaseController;
-import com.example.e_commerce_rest_api.model.request.InsertCategoryRequest;
-import com.example.e_commerce_rest_api.model.request.UpdateCategoryRequest;
-import com.example.e_commerce_rest_api.model.response.CategoryDto;
-import com.example.e_commerce_rest_api.model.response.base.BaseResponse;
-import com.example.e_commerce_rest_api.service.impl.CategoryService;
+import com.example.e_commerce_rest_api.dto.request.InsertCategoryRequest;
+import com.example.e_commerce_rest_api.dto.request.UpdateCategoryRequest;
+import com.example.e_commerce_rest_api.dto.response.CategoryDto;
+import com.example.e_commerce_rest_api.dto.response.base.BaseResponse;
+import com.example.e_commerce_rest_api.service.CategoryService;
+import com.example.e_commerce_rest_api.service.impl.CategoryServiceImpl;
 import com.example.e_commerce_rest_api.utils.constants.Authorize;
 import com.example.e_commerce_rest_api.utils.helper.MessageSourceHelper;
 import jakarta.validation.Valid;

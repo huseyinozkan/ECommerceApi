@@ -1,10 +1,11 @@
 package com.example.e_commerce_rest_api.controller;
 
 import com.example.e_commerce_rest_api.controller.base.BaseController;
-import com.example.e_commerce_rest_api.model.request.UpsertResourceRequest;
-import com.example.e_commerce_rest_api.model.response.LocalizationDto;
-import com.example.e_commerce_rest_api.model.response.base.BaseResponse;
-import com.example.e_commerce_rest_api.service.impl.ResourceService;
+import com.example.e_commerce_rest_api.dto.request.UpsertResourceRequest;
+import com.example.e_commerce_rest_api.dto.response.LocalizationDto;
+import com.example.e_commerce_rest_api.dto.response.base.BaseResponse;
+import com.example.e_commerce_rest_api.service.ResourceService;
+import com.example.e_commerce_rest_api.service.impl.ResourceServiceImpl;
 import com.example.e_commerce_rest_api.utils.constants.Authorize;
 import com.example.e_commerce_rest_api.utils.helper.MessageSourceHelper;
 import jakarta.validation.Valid;

@@ -1,15 +1,12 @@
 package com.example.e_commerce_rest_api.controller;
 
 import com.example.e_commerce_rest_api.controller.base.BaseController;
-import com.example.e_commerce_rest_api.model.request.InsertAddressRequest;
-import com.example.e_commerce_rest_api.model.request.InsertCultureRequest;
-import com.example.e_commerce_rest_api.model.request.UpdateAddressRequest;
-import com.example.e_commerce_rest_api.model.request.UpdateCultureRequest;
-import com.example.e_commerce_rest_api.model.response.AddressDto;
-import com.example.e_commerce_rest_api.model.response.CultureDto;
-import com.example.e_commerce_rest_api.model.response.base.BaseResponse;
-import com.example.e_commerce_rest_api.service.impl.AddressService;
-import com.example.e_commerce_rest_api.service.impl.CultureService;
+import com.example.e_commerce_rest_api.dto.request.InsertAddressRequest;
+import com.example.e_commerce_rest_api.dto.request.UpdateAddressRequest;
+import com.example.e_commerce_rest_api.dto.response.AddressDto;
+import com.example.e_commerce_rest_api.dto.response.base.BaseResponse;
+import com.example.e_commerce_rest_api.service.AddressService;
+import com.example.e_commerce_rest_api.service.impl.AddressServiceImpl;
 import com.example.e_commerce_rest_api.utils.constants.Authorize;
 import com.example.e_commerce_rest_api.utils.helper.MessageSourceHelper;
 import jakarta.validation.Valid;
